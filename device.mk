@@ -65,3 +65,6 @@ $(call inherit-product, device/oneplus/sm8350-common/common.mk)
 
 # Inherit from the proprietary files makefile.
 $(call inherit-product, vendor/realme/lunaa/lunaa-vendor.mk)
+
+# Camera
+$(call inherit-product-if-exists, vendor/realme/camera/realmecamera.mk)
