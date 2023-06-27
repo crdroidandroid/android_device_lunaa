@@ -476,5 +476,8 @@
         <item>2175</item> <!-- <item>sensorLocationY</item> -->
         <item>96</item>   <!-- <item>sensorRadius</item> -->
     </integer-array>
+    
+    <!-- Whether devices suports in-display fingerprint when screen is off -->
+    <bool name="config_supportScreenOffUdfps">true</bool>
 
 </resources>
