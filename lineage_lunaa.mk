@@ -15,8 +15,8 @@ $(call inherit-product, device/realme/lunaa/device.mk)
 $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 
 #Additional Stuffs
-EXTRA_UDFPS_ANIMATIONS := true
 TARGET_ENABLE_BLUR := true
+TARGET_HAS_UDFPS := true
 
 PRODUCT_NAME := lineage_lunaa
 PRODUCT_DEVICE := lunaa
