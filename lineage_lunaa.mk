@@ -14,6 +14,9 @@ $(call inherit-product, device/realme/lunaa/device.mk)
 # Inherit some common Lineage stuff.
 $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 
+#crDroid specific Flags
+TARGET_HAS_UDFPS := true
+
 PRODUCT_NAME := lineage_lunaa
 PRODUCT_DEVICE := lunaa
 PRODUCT_MANUFACTURER := realme
