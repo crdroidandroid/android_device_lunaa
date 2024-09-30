@@ -71,9 +71,14 @@ PRODUCT_PACKAGES += \
     OPlusWifiResTarget \
     PixelSetupWizardResTarget
 
+# Sensors
+PRODUCT_PACKAGES += \
+    vendor.lineage.oplus_als.service
+
 # Soong namespaces
 PRODUCT_SOONG_NAMESPACES += \
-    $(LOCAL_PATH)
+    $(LOCAL_PATH) \
+    hardware/oplus
 
 # Vibrator
 PRODUCT_PACKAGES += \
