@@ -71,10 +71,6 @@ PRODUCT_PACKAGES += \
     OPlusWifiResTarget \
     PixelSetupWizardResTarget
 
-# Sensors
-PRODUCT_PACKAGES += \
-    als_correction_service.lunaa
-
 # Soong namespaces
 PRODUCT_SOONG_NAMESPACES += \
     $(LOCAL_PATH)
